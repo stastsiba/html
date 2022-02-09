@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+body{
+    width: 340px;
+    margin: 0 auto;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.heaiding-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    top: 89px;
+    position: relative;
+    margin-right: 80px;
+}
+.icon {
+    margin-left: 85px;
+    position: relative;
+}
+.header-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header-btn-sign-up, .header-btn-log-in {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 37px;
+}
+.header-btn-sgn, .header-btn-lgn{
+    width: 50%;
+    border-style: none;
+    background-color: #fff;
+}
+.header-btn-sgn, .header-btn-lgn {
+    border-bottom-style: 1px solid;
+}
+.main{
+    text-align: center;    
+}
+.main-create-account {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 25px;
+    line-height: 54px;
+}
+.full-name, .email, .password, .confirm-password{
+    width: 300px;
+    height: 52px;
+    margin-bottom: 28px;
+    border-radius: 15px;
+    padding-left: 16px;
+}
+.main-btn {
+    width: 300px;
+    height: 52px;
+    background: #252427;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
